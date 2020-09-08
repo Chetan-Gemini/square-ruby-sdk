@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.add_dependency('faraday', '~> 0.15')
   s.add_dependency('faraday_middleware', '~> 0.13')
   s.add_dependency('certifi', '~> 2018.1')
-  s.add_dependency('faraday-http-cache', '~> 2.0')
+  # s.add_dependency('faraday-http-cache', '~> 2.0')
   s.add_development_dependency('minitest', '~> 5.0')
   s.add_development_dependency('minitest-proveit', '~> 1.0')
   s.required_ruby_version = '~> 2.0'
